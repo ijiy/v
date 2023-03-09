@@ -1,7 +1,7 @@
 export default {
 	cleanUrls: true,
 	// 访问基础路径
-	// base: '/press/',
+	base: '/v/',
 
 	// 打包位置
 	// outDir: '../dist',
