@@ -1,7 +1,7 @@
 export default {
 	cleanUrls: true,
 	// 访问基础路径
-	base: '/press/',
+	// base: '/press/',
 
 	// 打包位置
 	// outDir: '../dist',
@@ -642,17 +642,17 @@ export default {
 		 * 顶部导航栏 右边图标链接
 		 * icon: 'discord' | 'facebook' | 'github' | 'instagram' | 'linkedin' | 'slack' | 'twitter' | 'youtube' | { svg: string }
 		 */
-		socialLinks: [
-			{
-				icon: 'github',
-				link: 'https://github.com/ijiy/press',
-			},
-		],
+		// socialLinks: [
+		// 	{
+		// 		icon: 'github',
+		// 		link: 'https://github.com/ijiy/press',
+		// 	},
+		// ],
 		// md底部左侧 编辑链接
-		editLink: {
-			pattern: 'https://github.com/ijiy/press/edit/master/docs/:path',
-			text: '编辑此页'
-		},
+		// editLink: {
+		// 	pattern: 'https://github.com/ijiy/press/edit/master/docs/:path',
+		// 	text: '编辑此页'
+		// },
 		// md底部右侧 最近更新时间
 		lastUpdatedText: '最近更新',
 		// md底部 上下翻页
