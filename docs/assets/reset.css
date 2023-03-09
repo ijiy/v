@@ -1,0 +1,50 @@
+/* 可修改主题参考: https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+
+/* 滚动条 */
+::-webkit-scrollbar {
+	background: linear-gradient(90deg, rgba(0, 0, 0, .05), transparent, rgba(0, 0, 0, .05));
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(90deg, transparent 20%, rgba(0, 0, 0, .15), transparent 80%);
+}
+/* 滚动条上下箭头 */
+::-webkit-scrollbar-button {
+	background: linear-gradient(90deg, transparent 20%, rgba(0, 0, 0, .15), transparent 80%);
+}
+
+.dark :not(pre)::-webkit-scrollbar {
+	background: linear-gradient(90deg, rgba(255, 255, 255, .05), transparent, rgba(255, 255, 255, .05));
+}
+.dark :not(pre)::-webkit-scrollbar-thumb {
+	background: linear-gradient(90deg, transparent 20%, rgba(255, 255, 255, .15), transparent 80%);
+}
+.dark :not(pre)::-webkit-scrollbar-button {
+	background: linear-gradient(90deg, transparent 20%, rgba(255, 255, 255, .15), transparent 80%);
+}
+
+pre::-webkit-scrollbar {
+	background: linear-gradient(0, rgba(255, 255, 255, .05), transparent, rgba(255, 255, 255, .05));
+}
+pre::-webkit-scrollbar-thumb {
+	background: linear-gradient(0, transparent 20%, rgba(255, 255, 255, .15), transparent 80%);
+}
+pre::-webkit-scrollbar-button {
+	background: linear-gradient(0, transparent 20%, rgba(255, 255, 255, .15), transparent 80%);
+}
+
+:root {
+	--vp-home-hero-name-color: transparent;
+	--vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+
+	--vt-c-green: #42b883;
+}
+
+.VPNavBar .title {
+	opacity: 0;
+	pointer-events: none;
+}
+.VPNavBar.has-sidebar .title {
+	opacity: 1;
+	pointer-events: auto;
+}

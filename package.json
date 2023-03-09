@@ -1,0 +1,17 @@
+{
+	"name": "qp-press",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vitepress dev docs --host",
+		"build": "vitepress build docs"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"vitepress": "1.0.0-alpha.49",
+		"vue": "^3.2.47"
+	}
+}
