@@ -13,3 +13,6 @@
 * 保证一致的`package.json`, `pnpm-lock.yaml`
 
 * 更新`package.json`, 需要在调试的项目中安装 (本地另建一个项目), 测试正常后, 再正式项目中更新
+
+## 让项目富有生命力
+* README.md
