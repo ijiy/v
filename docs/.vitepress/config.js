@@ -10,7 +10,7 @@ export default {
 	// appearance: true,
 
 	// 大标题, <title>默认标题|*</title>,
-	titleTemplate: '前端技术整理',
+	titleTemplate: '从前端开始',
 
 	// 小标题, <title>*|大标题</title>, 缺省值: VitePress
 	title: '首页',
@@ -385,16 +385,8 @@ export default {
 						link: '/tool/sublime',
 					},
 					{
-						text: 'Sublime',
-						link: '/tool/sublime',
-					},
-					{
-						text: 'Sublime',
-						link: '/tool/sublime',
-					},
-					{
 						text: 'Window系统相关',
-						link: '/tool/window',
+						link: '/tool/win',
 					},
 				],
 			},

@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: 纵横前端
+  name: 从前端开始
   text: ...
   tagline: 快速进入
   actions:
