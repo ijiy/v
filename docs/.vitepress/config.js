@@ -574,7 +574,7 @@ export default {
 					},
 					{
 						text: '开发建议',
-						link: '/standard/advisse',
+						link: '/standard/advise',
 					},
 				],
 			},
