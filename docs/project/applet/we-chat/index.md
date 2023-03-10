@@ -249,4 +249,6 @@ uni.removeStorageSync('key');
 * 没有体验者权限或开发者权限, 在开发工具中无法获取到`openId`
 
 ## 文献 🎨
+* [审核规范](./audit-standard.md)
+
 * [微信官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework)

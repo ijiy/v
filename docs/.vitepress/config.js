@@ -503,7 +503,7 @@ export default {
 						items: [
 							{
 								text: '微信小程序',
-								link: '/project/wx-chat/',
+								link: '/project/applet/wx-chat/',
 							},
 						],
 					},

@@ -11,3 +11,6 @@
 ## 启动首屏规范
 * 建议不要触发授权
 	+ 非要授权, 授权失败也要可以下一步
+
+## 文献 🎨
+* [微信小程序平台运营规范](https://developers.weixin.qq.com/miniprogram/product)
